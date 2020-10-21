@@ -83,7 +83,7 @@ function isEven(numero) {
 // riceve in input il numero da valutare
 // restituisce true, se il numero è dispari, false altrimenti
 function isOdd(number) {
-    if(numer % 2 != 0) {
+    if(number % 2 != 0) {
         return true;
     } else {
         return false;
