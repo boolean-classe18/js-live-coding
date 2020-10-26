@@ -1,0 +1,10 @@
+p {
+    /* display: none; */
+    opacity: 0;
+    transition: all 1s;
+}
+
+p.visibile {
+    /* display: block; */
+    opacity: 1;
+}
