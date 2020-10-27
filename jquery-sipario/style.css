@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.sipario {
+    height: 100vh;
+    background-color: red;
+}
+
+#muovi-sipario {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: 0;
+    cursor: pointer;
+}

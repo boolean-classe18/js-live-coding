@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    margin: 50px;
+}
+
+p {
+    display: none;
+}
+
+h2 {
+    margin-top: 20px;
+    cursor: pointer;
+}
