@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left {
+    width: 200px;
+    height: 100%;
+    background-color: yellow;
+}
+
+.header-right ul {
+    list-style-type: none;
+}
+
+.header-right ul li {
+    display: inline-block;
+}
+
+.header-right ul li a {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.dropdown-item {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 150px;
+    height: 250px;
+    background-color: lightblue;
+    padding: 10px;
+    display: none;
+}
+
+.dropdown-menu.active {
+    display: block;
+}
+
+.dropdown-menu i {
+    padding: 10px;
+}
+
+main {
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 300px;
+    height: 100px;
+    background-color: purple;
+}
+
+.ricerca {
+    width: 500px;
+    height: 30px;
+    background-color: yellow;
+}
+
+.pulsanti {
+    width: 300px;
+    height: 30px;
+    background-color: green;
+}
+
+.lingua {
+    width: 200px;
+    height: 30px;
+    background-color: black;
+}
+
+footer {
+    height: 100px;
+    background-color: grey;
+}
